@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    font-family: "Comic Sans";
+    background-image: url("catmeme.jpg");
+}
+#headshot {
+    width:  100pt;
+    float: left;
+    border-radius: 2%;
+    margin-right: 5pt;
+    margin-left: -5pt;
+}
+
+h1 {
+    text-align: center;
+    background: linear-gradient(0deg, pink, rgb(52, 157, 248));
+    margin: 0;
+    padding: 20pt;    
+}
+
+h2 {
+    color: orange;
+    margin-bottom: 5pt;
+}
+
+h3 {
+    color: rgb(52, 157, 248);
+    margin-bottom: 1pt;
+}
+
+p {
+    color: greenyellow;
+    margin: 0pt;
+    padding-left: 5pt;
+}
+
+ul {
+    list-style-type: disc;
+    margin: 0pt;
+}
+
+li {
+    color: magenta;
+}
+
+#leftbox {
+    position: absolute;
+    left: 0;
+    width: 65%;
+    margin-top: 5pt;
+    margin-left: 5pt;
+}
+
+#rightbox{
+    background-color: dimgray;
+    position: absolute;
+    right: 0;
+    width: 30%;
+    padding-left: 5pt;
+    padding-bottom: 10pt;
+    margin-right: 5pt;
+    margin-top: 5pt;
+    border-radius: 2%;
+}
